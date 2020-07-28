@@ -1,6 +1,6 @@
 {
     "name": "cra-template-styled-and-linted",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "license": "MIT",
     "author": "José Magalhães",
     "engines": {
@@ -76,7 +76,6 @@
     "devDependencies": {
         "babel-eslint": "^10.1.0",
         "babel-jest": "^24.9.0",
-        "eslint": "^7.5.0",
         "eslint-config-airbnb": "^18.2.0",
         "eslint-config-babel": "^9.0.0",
         "eslint-config-prettier": "^6.11.0",
