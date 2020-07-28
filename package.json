@@ -1,6 +1,6 @@
 {
     "name": "cra-template-styled-and-linted",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "license": "MIT",
     "author": "José Magalhães",
     "engines": {
@@ -53,25 +53,25 @@
     },
     "browserslist": {
         "production": [
-          ">0.2%",
-          "not dead",
-          "not op_mini all"
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
         ],
         "development": [
-          "last 1 chrome version",
-          "last 1 firefox version",
-          "last 1 safari version"
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
         ]
     },
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
         "@testing-library/user-event": "^7.1.2",
+        "polished": "^3.6.5",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1",
-        "styled-components": "^5.1.1",
-        "polished": "^3.6.5"
+        "styled-components": "^5.1.1"
     },
     "devDependencies": {
         "babel-eslint": "^10.1.0",
