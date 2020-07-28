@@ -1,0 +1,92 @@
+{
+    "name": "cra-template-styled-and-linted",
+    "version": "0.1.1",
+    "license": "MIT",
+    "author": "José Magalhães",
+    "engines": {
+        "node": ">=10"
+    },
+    "main": "template.json",
+    "description": "A Create React App with Styled Components, ESLint and Prettier ready for use",
+    "keywords": [
+        "react",
+        "create-react-app",
+        "template",
+        "styled components",
+        "eslint",
+        "prettier"
+    ],
+    "files": [
+        "template",
+        "template.json"
+    ],
+    "homepage": "https://github.com/josemagalhaesnt/cra-template-styled-and-linted#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/josemagalhaesnt/cra-template-styled-and-linted",
+        "directory": "/"
+    },
+    "bugs": {
+        "url": "https://github.com/josemagalhaesnt/cra-template-styled-and-linted/issues"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,ts,tsx}": [
+            "eslint --fix"
+        ]
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "format": "prettier --write src/**/*.js{,x}",
+        "fix": "eslint --ext .js,.jsx,.ts,.tsx  --fix ./",
+        "lint": "eslint --ext .js,.jsx,.ts,.tsx ./"
+    },
+    "browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version"
+        ]
+    },
+    "dependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "3.4.1",
+        "styled-components": "^5.1.1",
+        "polished": "^3.6.5"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "babel-jest": "^24.9.0",
+        "eslint": "^7.5.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-config-babel": "^9.0.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-react-app": "^5.1.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jest": "^23.17.1",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.20.4",
+        "eslint-plugin-react-hooks": "^4.0.8",
+        "prettier": "^2.0.5"
+    }
+}
